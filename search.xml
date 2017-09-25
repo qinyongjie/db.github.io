@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[The_benefits of keeping a dog]]></title>
+    <url>%2F2204.github.io%2F2017%2F09%2F25%2F2017-09-25-The_benefits_of_keeping_a_dog%2F</url>
+    <content type="text"><![CDATA[Urge people to show goodwill and improve their psychological situation Alet the abnormal situation in life]]></content>
+      <categories>
+        <category>tips</category>
+      </categories>
+      <tags>
+        <tag>dog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo error note]]></title>
     <url>%2F2204.github.io%2F2017%2F09%2F25%2F2017-09-25-Hexo_error_note%2F</url>
     <content type="text"><![CDATA[local search error search dialog box can’t pop up. There are maybe some markdown syntax errors in post files. Use the exclusive method to pick out the problematic files and edit them again.]]></content>
@@ -190,8 +201,8 @@
         <category>computer science</category>
       </categories>
       <tags>
-        <tag>URL</tag>
         <tag>rpm</tag>
+        <tag>URL</tag>
       </tags>
   </entry>
   <entry>
@@ -202,8 +213,8 @@
         <category>computer science</category>
       </categories>
       <tags>
-        <tag>jar</tag>
         <tag>URL</tag>
+        <tag>jar</tag>
       </tags>
   </entry>
 </search>
