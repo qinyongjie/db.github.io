@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[The benefits of keeping a dog]]></title>
+    <url>%2F2017%2F09%2F25%2F2017-09-25-The_benefits_of_keeping_a_dog%2F</url>
+    <content type="text"><![CDATA[####Known Urge people to show goodwill and improve their psychological situation Alet the abnormal situation in life]]></content>
+      <categories>
+        <category>interesting</category>
+      </categories>
+      <tags>
+        <tag>dog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo error note]]></title>
     <url>%2F2017%2F09%2F25%2F2017-09-25-Hexo_error_note%2F</url>
     <content type="text"><![CDATA[local search error search dialog box can’t pop up. There are maybe some markdown syntax errors in post files. Use the exclusive method to pick out the problematic files and edit them again.]]></content>
@@ -35,6 +46,14 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[The Feynman Technique]]></title>
+    <url>%2F2017%2F09%2F18%2F2017-09-18-The_Feynman_Technique%2F</url>
+    <content type="text"><![CDATA[The Feynman Technique Cut the learning content into small blocks of knowledge. Choose two ways, learning small blocks of knowledge one by one for full study, or learning key knowledge for quick study. Explain the knowledge points with the original knowledge after learning. Compare your presentation and information. Repeat step 3 to 4 for knowledge loopholes. [Summary]The learning process is to constantly use the old knowledge to explain the new knowledge and transform them into old knowledge.]]></content>
+      <categories>
+        <category>tips</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[Programming Language Download Url]]></title>
     <url>%2F2017%2F09%2F16%2F2017-09-16-programming_language_download_url%2F</url>
     <content type="text"><![CDATA[RPython RubyGo JavaScala Lua]]></content>
@@ -43,6 +62,17 @@
       </categories>
       <tags>
         <tag>URL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[dictum]]></title>
+    <url>%2F2017%2F09%2F13%2F2017-09-13-dictum%2F</url>
+    <content type="text"><![CDATA[Francis Bacon[UK] -Histories make men wise; poets witty; the mathematics subtle; natural philosophy deep; moral grave; logic and rhetoric able to contend. 王阳明[明] -宁静于内，无敌于外。(Quiet inside, invincible outside.)心外无理，心外无物，心外无事。你未看此花时，此花与汝心同归于寂。你来看此花时，则此花颜色一时明白起来。汝以不得第为耻，吾以不得第动心而为耻。天地虽大，但有一念向善，心存良知，虽凡夫俗子，皆可为圣贤。你看满大街都是圣人，满大街的人看你也是圣人。破山中贼易，破心中贼难。知者行之始，行者知之成：圣学只一个功夫，知行不可分作两事。无善无恶心之体，有善有恶意之动。知善知恶是良知，为善去恶是格物。 菜根谭》(洪应明[明]) -思入世而有为者，须先领得世外风光，否则无以脱垢浊之尘缘；思出世而无染者，须先谙尽世中滋味。否则无以持空寂之后苦趣。]]></content>
+      <categories>
+        <category>tips</category>
+      </categories>
+      <tags>
+        <tag>dictum</tag>
       </tags>
   </entry>
   <entry>
@@ -62,7 +92,7 @@
     <url>%2F2017%2F09%2F08%2F2017-09-08-game%2F</url>
     <content type="text"><![CDATA[2048 sudoku Puzzle Choice]]></content>
       <categories>
-        <category>fun</category>
+        <category>interesting</category>
       </categories>
       <tags>
         <tag>URL</tag>
@@ -110,8 +140,8 @@
         <category>computer science</category>
       </categories>
       <tags>
-        <tag>reverse</tag>
         <tag>URL</tag>
+        <tag>reverse</tag>
       </tags>
   </entry>
   <entry>
@@ -145,8 +175,8 @@
         <category>computer science</category>
       </categories>
       <tags>
-        <tag>URL</tag>
         <tag>jar</tag>
+        <tag>URL</tag>
       </tags>
   </entry>
 </search>

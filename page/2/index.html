@@ -314,6 +314,498 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.stevenlu.top/2017/02/04/2017-02-04-GCC_note/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="2204">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar_moonlight.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="2204's log">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/02/04/2017-02-04-GCC_note/" itemprop="url">GCC_note</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-04T14:22:00+08:00">
+                2017-02-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/computer-science/" itemprop="url" rel="index">
+                    <span itemprop="name">computer science</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ul>
+<li>GCC_Compile_Program_Flow  </li>
+</ul>
+<p>Source_File[<em>.c] -&gt; Preprocess(Preprocessor)[</em>.i] -&gt; Compile(compiler) -&gt; Assemble(assembler) -&gt; link(connector) -&gt; Executable_File(*.o)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">$ gcc *.c -o *</div><div class="line"># first step</div><div class="line"># stop after preprocessing</div><div class="line">$ gcc -E *.c -o *.i</div><div class="line"></div><div class="line"># second step</div><div class="line"># compile skip preprocessing</div><div class="line"># check for syntax errors</div><div class="line"># output an binary file</div><div class="line">$ gcc -c *.i -o *.o</div><div class="line"></div><div class="line"># disassemble</div><div class="line">$ objdump -dS *.o</div><div class="line"></div><div class="line"># assembly</div><div class="line"># output *.s</div><div class="line">$ gcc -S *.c</div><div class="line"></div><div class="line"># third step</div><div class="line"># link the object file as an executable file</div></pre></td></tr></table></figure>
+<ul>
+<li>Some  extension names of the sources files which are supported by GCC  </li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Extension_Name</th>
+<th>Source_File  </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.c</td>
+<td>C Source File</td>
+</tr>
+<tr>
+<td>.C / .cc / .cxx</td>
+<td>C++ Source File</td>
+</tr>
+<tr>
+<td>.m</td>
+<td>Object-C Source File</td>
+</tr>
+<tr>
+<td>.i</td>
+<td>C Source File after preprocessing</td>
+</tr>
+<tr>
+<td>.ii</td>
+<td>C++ Source File after preprocessing</td>
+</tr>
+<tr>
+<td>.s / .S</td>
+<td>Assembly Source File</td>
+</tr>
+<tr>
+<td>.h</td>
+<td>Preprocess File / Head File</td>
+</tr>
+<tr>
+<td>.o</td>
+<td>Object File</td>
+</tr>
+<tr>
+<td>.a</td>
+<td>Archive File</td>
+</tr>
+</tbody>
+</table>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.stevenlu.top/2017/01/22/2017-01-22-Git/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="2204">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar_moonlight.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="2204's log">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/01/22/2017-01-22-Git/" itemprop="url">Git command</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-22T00:00:00+08:00">
+                2017-01-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/computer-science/" itemprop="url" rel="index">
+                    <span itemprop="name">computer science</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ul>
+<li>Basic_Git_Workflow </li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"># Create a new Git repository</div><div class="line">$ git init</div><div class="line"># Inspect the contents of the working directory and staging area</div><div class="line">$ git status</div><div class="line"># Add files from the working directory to the staging area</div><div class="line">$ git add &lt;filename&gt;</div><div class="line"># Show the difference between the working directory and the staging area</div><div class="line">$ git diff &lt;filename&gt;</div><div class="line"># Permanently store file changes from the staging area in the repository</div><div class="line">$ git commit -m &quot;commit memorable string&quot;</div><div class="line"># Show a list of all previous commits</div><div class="line">$ git log</div><div class="line"># Add remote repository</div><div class="line">git remote add bit_lbs ssh://git@bitbucket.org/$&#123;name&#125;/$&#123;repository_name&#125;.git</div><div class="line">git remote add github_lbs ssh://git@github.com/$&#123;name&#125;/$&#123;repository_name&#125;.git</div></pre></td></tr></table></figure>
+<ul>
+<li>How_to_Backtrack_in_Git</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># Discard changes in the working directory.</div><div class="line">$ git checkout HEAD &lt;filename&gt;</div><div class="line"># Unstage file changes in the staging area.</div><div class="line">$ git reset HEAD &lt;filename&gt;</div><div class="line"># Use the first 7 characters of the SHA to reset to a previous commit in your commit history.</div><div class="line">$ git reset &lt;SHA[0:6]&gt;</div></pre></td></tr></table></figure>
+<ul>
+<li>Git_Branching</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"># Create a local copy of a remote.</div><div class="line">$ git clone &lt;URL&gt; &lt;repo_name&gt;</div><div class="line"># List a Git project&apos;s remotes.</div><div class="line">$ git remote -v</div><div class="line"># Fetch work from the remote into the local copy.</div><div class="line">$ git fetch</div><div class="line"># Merge origin/master into your local branch.</div><div class="line">$ git merge origin/master</div><div class="line"># Push a local branch to the origin remote.</div><div class="line">$ git push origin &lt;branch_name&gt;</div></pre></td></tr></table></figure>
+<hr>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p><a href="http://iissnan.com/progit/" target="_blank" rel="external">Pro Git</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.stevenlu.top/2016/12/27/2016-12-27-Reverse_Website_Reference/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="2204">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar_moonlight.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="2204's log">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/12/27/2016-12-27-Reverse_Website_Reference/" itemprop="url">Reverse Website Reference</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-27T00:00:00+08:00">
+                2016-12-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/computer-science/" itemprop="url" rel="index">
+                    <span itemprop="name">computer science</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><a href="https://beginners.re/" target="_blank" rel="external">“Reverse_Engineering_for_Beginners”_free_book</a><br><a href="https://challenges.re/" target="_blank" rel="external">Reverse_Engineering_Challenges</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://www.stevenlu.top/2016/12/20/2016-12-20-GDB_Instruction/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -782,7 +1274,7 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-count">16</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -793,7 +1285,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">categories</span>
               </a>
             </div>
@@ -804,7 +1296,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">18</span>
+                <span class="site-state-item-count">15</span>
                 <span class="site-state-item-name">tags</span>
               </a>
             </div>
