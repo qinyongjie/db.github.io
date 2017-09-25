@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo error note]]></title>
+    <url>%2F2204.github.io%2F2017%2F09%2F25%2F2017-09-25-Hexo_error_note%2F</url>
+    <content type="text"><![CDATA[local search error search dialog box can’t pop up. There are maybe some markdown syntax errors in post files. Use the exclusive method to pick out the problematic files and edit them again.]]></content>
+      <categories>
+        <category>computer science</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[The ultimate meaning of being alive]]></title>
     <url>%2F2204.github.io%2F2017%2F09%2F18%2F2017-09-18-The_ultimate_meaning_of_being_alive%2F</url>
     <content type="text"><![CDATA[smriti gene smriti meme [Summary]Continue race and civilization.]]></content>
@@ -61,7 +72,7 @@
   <entry>
     <title><![CDATA[dictum]]></title>
     <url>%2F2204.github.io%2F2017%2F09%2F13%2F2017-09-13-dictum%2F</url>
-    <content type="text"><![CDATA[Francis Bacon[UK] -Histories make men wise; poets witty; the mathematics subtle; natural philosophy deep; moral grave; logic and rhetoric able to contend. 王阳明[明] -宁静于内，无敌于外。(Quiet inside, invincible outside.) 心外无理，心外无物，心外无事。 你未看此花时，此花与汝心同归于寂。你来看此花时，则此花颜色一时明白起来。 汝以不得第为耻，吾以不得第动心而为耻。 天地虽大，但有一念向善，心存良知，虽凡夫俗子，皆可为圣贤。 你看满大街都是圣人，满大街的人看你也是圣人。 破山中贼易，破心中贼难。 知者行之始，行者知之成：圣学只一个功夫，知行不可分作两事。 无善无恶心之体，有善有恶意之动。知善知恶是良知，为善去恶是格物。 菜根谭》(洪应明[明]) -思入世而有为者，须先领得世外风光，否则无以脱垢浊之尘缘；思出世而无染者，须先谙尽世中滋味。否则无以持空寂之后苦趣。]]></content>
+    <content type="text"><![CDATA[Francis Bacon[UK] -Histories make men wise; poets witty; the mathematics subtle; natural philosophy deep; moral grave; logic and rhetoric able to contend. 王阳明[明] -宁静于内，无敌于外。(Quiet inside, invincible outside.)心外无理，心外无物，心外无事。你未看此花时，此花与汝心同归于寂。你来看此花时，则此花颜色一时明白起来。汝以不得第为耻，吾以不得第动心而为耻。天地虽大，但有一念向善，心存良知，虽凡夫俗子，皆可为圣贤。你看满大街都是圣人，满大街的人看你也是圣人。破山中贼易，破心中贼难。知者行之始，行者知之成：圣学只一个功夫，知行不可分作两事。无善无恶心之体，有善有恶意之动。知善知恶是良知，为善去恶是格物。 菜根谭》(洪应明[明]) -思入世而有为者，须先领得世外风光，否则无以脱垢浊之尘缘；思出世而无染者，须先谙尽世中滋味。否则无以持空寂之后苦趣。]]></content>
       <categories>
         <category>tips</category>
       </categories>
@@ -82,7 +93,7 @@
   </entry>
   <entry>
     <title><![CDATA[English Dictionary Online Reference]]></title>
-    <url>%2F2204.github.io%2F2017%2F09%2F09%2F2017-09-9-English_Dictionary_Online_Reference%2F</url>
+    <url>%2F2204.github.io%2F2017%2F09%2F09%2F2017-09-09-English_Dictionary_Online_Reference%2F</url>
     <content type="text"><![CDATA[DictCollinsDictionary.comOxford Living DictionariesLONGMANMerriam-Webster SynonymThesaurus WritingPurdue_OWL]]></content>
       <categories>
         <category>language</category>
@@ -94,7 +105,7 @@
   </entry>
   <entry>
     <title><![CDATA[game]]></title>
-    <url>%2F2204.github.io%2F2017%2F09%2F08%2F2017-09-8-game%2F</url>
+    <url>%2F2204.github.io%2F2017%2F09%2F08%2F2017-09-08-game%2F</url>
     <content type="text"><![CDATA[2048 sudoku Puzzle Choice]]></content>
       <categories>
         <category>fun</category>
@@ -179,8 +190,8 @@
         <category>computer science</category>
       </categories>
       <tags>
-        <tag>rpm</tag>
         <tag>URL</tag>
+        <tag>rpm</tag>
       </tags>
   </entry>
   <entry>
@@ -191,8 +202,8 @@
         <category>computer science</category>
       </categories>
       <tags>
-        <tag>URL</tag>
         <tag>jar</tag>
+        <tag>URL</tag>
       </tags>
   </entry>
 </search>
