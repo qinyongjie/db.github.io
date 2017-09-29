@@ -154,7 +154,7 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[GCC_note]]></title>
+    <title><![CDATA[GCC note]]></title>
     <url>%2F2017%2F02%2F04%2F2017-02-04-GCC_note%2F</url>
     <content type="text"><![CDATA[GCC_Compile_Program_Flow Source_File[.c] -&gt; Preprocess(Preprocessor)[.i] -&gt; Compile(compiler) -&gt; Assemble(assembler) -&gt; link(connector) -&gt; Executable_File(*.o) 1234567891011121314151617181920$ gcc *.c -o *# first step# stop after preprocessing$ gcc -E *.c -o *.i# second step# compile skip preprocessing# check for syntax errors# output an binary file$ gcc -c *.i -o *.o# disassemble$ objdump -dS *.o# assembly# output *.s$ gcc -S *.c# third step# link the object file as an executable file Some extension names of the sources files which are supported by GCC Extension_Name Source_File .c C Source File .C / .cc / .cxx C++ Source File .m Object-C Source File .i C Source File after preprocessing .ii C++ Source File after preprocessing .s / .S Assembly Source File .h Preprocess File / Head File .o Object File .a Archive File]]></content>
       <categories>
@@ -188,7 +188,7 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[GDB_Instruction]]></title>
+    <title><![CDATA[GDB Instruction]]></title>
     <url>%2F2016%2F12%2F20%2F2016-12-20-GDB_Instruction%2F</url>
     <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233#list all(gdb)l#display next line(gdb)n#enter for redo(gdb)#set breakpoint(gdb)break [line_number]#enable/disable breakpoint(gdb)enable/disable [breakpoint_number]#delete all breakpoints(gdb)d#delete breakpoint(gdb)d [breakpoint_number]/[breakpoint_number_range]e.g.(gdb)d 1/1-2/1 2#run(gdb)r#continue(gdb)c#check breakpoints info(gdb)info break#check function stack - backtrack(gdb)bt]]></content>
       <categories>
