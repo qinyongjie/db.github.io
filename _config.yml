@@ -16,7 +16,7 @@ timezone:
 #url: http://www.stevenlu.top/
 #root: /
 url: https://stevenhugo.github.io/2204.github.io
-root: /
+root: /2204.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
