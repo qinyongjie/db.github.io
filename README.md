@@ -52,5 +52,5 @@ root: /
 ```
 ./source/CNAME
 ```
-yourdomain
+www.yourdomain
 ```
