@@ -4,7 +4,7 @@ title:      GDB Instruction
 date: 2016-12-20 14:22:00 +0800
 keywords:   
 categories:
-	- computer science
+	- CS
 tags:		
 	- GDB
 ---

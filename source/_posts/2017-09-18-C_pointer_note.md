@@ -4,7 +4,7 @@ title:      C pointer note
 date: 2017-09-18 09:04:00 +0800
 keywords:   
 categories:   
-	- computer science
+	- CS
 tags:		
 	- C
 ---

@@ -4,7 +4,7 @@ title:      Programming Language Download Url
 date: 2017-09-16 21:50:00 +0800
 keywords:   lang
 categories:
-	- computer science
+	- CS
 tags:		
 	- URL
 ---

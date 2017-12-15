@@ -4,7 +4,7 @@ title:      Where is rpm
 date: 2016-12-05
 keywords:   rpm
 categories:   
-	- computer science
+	- CS
 tags:		
 	- rpm
 	- URL
