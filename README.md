@@ -41,3 +41,16 @@ $ hexo clean
 # hexo deploy
 $ hexo g -d
 ```
+
+---
+
+# Custom domain  
+./_config.yml  
+```
+url: http://www.yourdomain
+root: /
+```
+./source/CNAME
+```
+yourdomain
+```
