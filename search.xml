@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[ebooks]]></title>
+    <url>%2F2017%2F12%2F15%2F2017-12-15-ebooks%2F</url>
+    <content type="text"><![CDATA[Website电子书屋 GitBook Linux Story Githubhttps://github.com/EbookFoundation https://github.com/sindresorhus/awesome#contents https://github.com/AllenDowney Green Tea Press https://github.com/phodal/growth-ebook]]></content>
+      <categories>
+        <category>CS</category>
+      </categories>
+      <tags>
+        <tag>URL</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[江山美人说]]></title>
     <url>%2F2017%2F10%2F27%2F2017-10-27-essay%2F</url>
     <content type="text"><![CDATA[一日一人语众人：江山与美人，择之一曰：都要二曰：要美人不要江山三曰：要江山不要美人四曰：只要江山五曰：都不要六曰：不择七曰：…(-&gt;_-&gt;)]]></content>
@@ -78,7 +89,7 @@
     <url>%2F2017%2F09%2F25%2F2017-09-25-Hexo_error_note%2F</url>
     <content type="text"><![CDATA[local search error search dialog box can’t pop up. There are maybe some markdown syntax errors in post files. Use the exclusive method to pick out the problematic files and edit them again.]]></content>
       <categories>
-        <category>computer science</category>
+        <category>CS</category>
       </categories>
       <tags>
         <tag>hexo</tag>
@@ -97,7 +108,7 @@
     <url>%2F2017%2F09%2F18%2F2017-09-18-Where_is_Linux_Core%2F</url>
     <content type="text"><![CDATA[The_Linux_Kernel_ArchivesLXR Cross ReferencerFreeBSD and Linux Kernel Cross-Reference]]></content>
       <categories>
-        <category>computer science</category>
+        <category>CS</category>
       </categories>
       <tags>
         <tag>URL</tag>
@@ -109,7 +120,7 @@
     <url>%2F2017%2F09%2F18%2F2017-09-18-C_pointer_note%2F</url>
     <content type="text"><![CDATA[明确所指向的地址 明确所指向的数据类型]]></content>
       <categories>
-        <category>computer science</category>
+        <category>CS</category>
       </categories>
       <tags>
         <tag>C</tag>
@@ -128,7 +139,7 @@
     <url>%2F2017%2F09%2F16%2F2017-09-16-programming_language_download_url%2F</url>
     <content type="text"><![CDATA[RPython RubyGo JavaScala Lua luaforwindows]]></content>
       <categories>
-        <category>computer science</category>
+        <category>CS</category>
       </categories>
       <tags>
         <tag>URL</tag>
@@ -201,7 +212,7 @@
     <url>%2F2017%2F02%2F04%2F2017-02-04-GCC_note%2F</url>
     <content type="text"><![CDATA[GCC_Compile_Program_Flow Source_File[.c] -&gt; Preprocess(Preprocessor)[.i] -&gt; Compile(compiler) -&gt; Assemble(assembler) -&gt; link(connector) -&gt; Executable_File(*.o) 1234567891011121314151617181920$ gcc *.c -o *# first step# stop after preprocessing$ gcc -E *.c -o *.i# second step# compile skip preprocessing# check for syntax errors# output an binary file$ gcc -c *.i -o *.o# disassemble$ objdump -dS *.o# assembly# output *.s$ gcc -S *.c# third step# link the object file as an executable file Some extension names of the sources files which are supported by GCC Extension_Name Source_File .c C Source File .C / .cc / .cxx C++ Source File .m Object-C Source File .i C Source File after preprocessing .ii C++ Source File after preprocessing .s / .S Assembly Source File .h Preprocess File / Head File .o Object File .a Archive File]]></content>
       <categories>
-        <category>computer science</category>
+        <category>CS</category>
       </categories>
       <tags>
         <tag>GCC</tag>
@@ -212,7 +223,7 @@
     <url>%2F2017%2F01%2F22%2F2017-01-22-Git%2F</url>
     <content type="text"><![CDATA[Basic_Git_Workflow 123456789101112131415# Create a new Git repository$ git init# Inspect the contents of the working directory and staging area$ git status# Add files from the working directory to the staging area$ git add &lt;filename&gt;# Show the difference between the working directory and the staging area$ git diff &lt;filename&gt;# Permanently store file changes from the staging area in the repository$ git commit -m &quot;commit memorable string&quot;# Show a list of all previous commits$ git log# Add remote repositorygit remote add bit_lbs ssh://git@bitbucket.org/$&#123;name&#125;/$&#123;repository_name&#125;.gitgit remote add github_lbs ssh://git@github.com/$&#123;name&#125;/$&#123;repository_name&#125;.git How_to_Backtrack_in_Git 123456# Discard changes in the working directory.$ git checkout HEAD &lt;filename&gt;# Unstage file changes in the staging area.$ git reset HEAD &lt;filename&gt;# Use the first 7 characters of the SHA to reset to a previous commit in your commit history.$ git reset &lt;SHA[0:6]&gt; Git_Branching 12345678910# Create a local copy of a remote.$ git clone &lt;URL&gt; &lt;repo_name&gt;# List a Git project&apos;s remotes.$ git remote -v# Fetch work from the remote into the local copy.$ git fetch# Merge origin/master into your local branch.$ git merge origin/master# Push a local branch to the origin remote.$ git push origin &lt;branch_name&gt; ReferencePro Git]]></content>
       <categories>
-        <category>computer science</category>
+        <category>CS</category>
       </categories>
       <tags>
         <tag>git</tag>
@@ -223,7 +234,7 @@
     <url>%2F2016%2F12%2F27%2F2016-12-27-Reverse_Website_Reference%2F</url>
     <content type="text"><![CDATA[“Reverse_Engineering_for_Beginners”_free_bookReverse_Engineering_Challenges]]></content>
       <categories>
-        <category>computer science</category>
+        <category>CS</category>
       </categories>
       <tags>
         <tag>URL</tag>
@@ -235,7 +246,7 @@
     <url>%2F2016%2F12%2F20%2F2016-12-20-GDB_Instruction%2F</url>
     <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233#list all(gdb)l#display next line(gdb)n#enter for redo(gdb)#set breakpoint(gdb)break [line_number]#enable/disable breakpoint(gdb)enable/disable [breakpoint_number]#delete all breakpoints(gdb)d#delete breakpoint(gdb)d [breakpoint_number]/[breakpoint_number_range]e.g.(gdb)d 1/1-2/1 2#run(gdb)r#continue(gdb)c#check breakpoints info(gdb)info break#check function stack - backtrack(gdb)bt]]></content>
       <categories>
-        <category>computer science</category>
+        <category>CS</category>
       </categories>
       <tags>
         <tag>GDB</tag>
@@ -246,7 +257,7 @@
     <url>%2F2016%2F12%2F05%2F2016-12-05-Where_is_rpm%2F</url>
     <content type="text"><![CDATA[Reference source websites Sohu.comRpmfindrpm.pbone.net]]></content>
       <categories>
-        <category>computer science</category>
+        <category>CS</category>
       </categories>
       <tags>
         <tag>URL</tag>
@@ -258,7 +269,7 @@
     <url>%2F2016%2F11%2F24%2F2016-11-24-Where_is_jar%2F</url>
     <content type="text"><![CDATA[mvnrepository]]></content>
       <categories>
-        <category>computer science</category>
+        <category>CS</category>
       </categories>
       <tags>
         <tag>jar</tag>
