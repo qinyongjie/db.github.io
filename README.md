@@ -12,7 +12,7 @@ $ npm install hexo-deployer-git --save
 # add local search
 $ npm install hexo-generator-search --save
 $ npm install hexo-generator-searchdb --save
-$ git clone git@github.com:StevenHugo/hexo-theme-next.git ./2204.github.io/theme/next
+$ git clone git@github.com:StevenHugo/hexo-theme-next.git ./2204.github.io/themes/next
 
 # others
 $ npm install hexo-generator-index --save
