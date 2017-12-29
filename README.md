@@ -6,7 +6,8 @@ This is a hexo-next site.
 
 ```
 $ git clone git@github.com:StevenHugo/2204.github.io.git
-$ npm install hexo
+$ npm install hexo-cli -g
+$ npm install hexo --save
 # add git support
 $ npm install hexo-deployer-git --save
 # add local search
