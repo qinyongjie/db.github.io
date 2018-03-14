@@ -51,7 +51,7 @@ tags:
 [philosophybites](http://www.philosophybites.com/) 
 [Philosophy Talk](https://www.philosophytalk.org/) 
 
-##### Video & picture 
+##### Video & Picture 
 [wi-phi](http://www.wi-phi.com/) 
 
 ##### Magazine 
