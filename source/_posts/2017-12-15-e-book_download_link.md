@@ -4,8 +4,7 @@ title:      e-book_download_link
 date: 2017-12-15 11:24:00 +0800
 keywords:   
 categories:   
-	- CS
-	- src
+	- resource 
 tags:		
 	- URL
 ---
