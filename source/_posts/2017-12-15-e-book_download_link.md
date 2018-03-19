@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      ebooks
+title:      e-book download link
 date: 2017-12-15 11:24:00 +0800
 keywords:   
 categories:   
-	- CS
+	- CS src
 tags:		
 	- URL
 ---
@@ -153,7 +153,7 @@ tags:
 
 
 
-#### Chinese Internet Sources of E-Books 
+#### Chinese Internet Sources  
 
 [微盘Vdisk](http://vdisk.weibo.com/) 
 
