@@ -14,7 +14,7 @@ tags:
 
 # Title 
 note of Westers_Vocabulary_Builder_Second_Edition 
----
+***
 
 # Hint 
 
@@ -23,7 +23,7 @@ note of Westers_Vocabulary_Builder_Second_Edition 
   [sentence] 
 * word2 : meaning [comment] 
   [sentence] 
----
+***
 
 # Content 
 
@@ -37,7 +37,7 @@ note of Westers_Vocabulary_Builder_Second_Edition 
 2) N-VAR You can refer to something that makes people feel protected and at peace as a benediction. 
 ```
 
-* benefactor : 捐助者 [bene-factor, N-COUNT] 
+* benefactor : 捐助者 [bene-factor] 
 ```
 N-COUNT: oft N of n A benefactor is a person who helps a person or organization by giving them money. 
 ```
