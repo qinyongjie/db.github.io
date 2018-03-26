@@ -23,6 +23,7 @@ note of Westers_Vocabulary_Builder_Second_Edition 
 * word2 : meaning [comment] 
   [sentence] 
 
+
 # Content 
 
 ## Unit 1 
