@@ -14,6 +14,7 @@ tags:
 
 # Title 
 note of Westers_Vocabulary_Builder_Second_Edition 
+---
 
 # Hint 
 
@@ -22,7 +23,7 @@ note of Westers_Vocabulary_Builder_Second_Edition 
   [sentence] 
 * word2 : meaning [comment] 
   [sentence] 
-
+---
 
 # Content 
 
