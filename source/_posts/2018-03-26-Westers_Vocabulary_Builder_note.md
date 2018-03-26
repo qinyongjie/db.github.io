@@ -15,10 +15,10 @@ tags:
 # Title 
 note of Westers_Vocabulary_Builder_Second_Edition 
 
-# Hint  
+# Hint 
 
 ### root : meaning 
-* word1 : meaning [comment]
+* word1 : meaning [comment] 
   [sentence] 
 * word2 : meaning [comment] 
   [sentence] 
@@ -397,8 +397,7 @@ induces, inducing, induced 
 3) VERB If a doctor or nurse induces labour or birth, they cause a pregnant woman to start giving birth by using drugs or other medical means. [MEDICAL] 
 ```
 
-* seduction : 诱惑; 魅力; (1) Temptation to sin, especially temptation to sexual intercourse.
-  (2) Attraction or charm. 
+* seduction : 诱惑; 魅力; (1) Temptation to sin, especially temptation to sexual intercourse. (2) Attraction or charm. 
 ```
 The company began its campaign of seduction of the smaller firm by inviting its top
 management to a series of weekends at expensive resorts. 
