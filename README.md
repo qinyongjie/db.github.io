@@ -5,7 +5,6 @@ This is a hexo-next site.
 # How to go on the site
 
 ```
-$ git clone git@github.com:StevenHugo/2204.github.io.git
 $ npm install hexo-cli -g
 $ npm install hexo --save
 # add git support
@@ -13,7 +12,6 @@ $ npm install hexo-deployer-git --save
 # add local search
 $ npm install hexo-generator-search --save
 $ npm install hexo-generator-searchdb --save
-$ git clone git@github.com:StevenHugo/hexo-theme-next.git ./2204.github.io/themes/next
 
 # others
 $ npm install hexo-generator-index --save

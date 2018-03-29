@@ -3,19 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 2204's log
+title: db site
 subtitle:
-description: The life is not a race, but a journey to be savoured each step of the way.
-author: 2204
+description: 
+author: James
 #language: zh-Hans
 language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-#url: http://www.stevenlu.top/
-#root: /
-url: http://www.piio.top/
+url: http://www.aesthetik.cn/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -81,7 +79,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:StevenHugo/2204.github.io.git
+  repo: git@github.com:qinyongjie/db.github.io.git
   branch: gh-pages
 
 #Local search
