@@ -10,23 +10,23 @@ tags:
 ---
 This way is applicable software version that is Oracle Database - Enterprise Edition - Version 9.0.1.0 and later
 
-1、需要重建控制文件的几个场景（circumstances）
+# 1、需要重建控制文件的几个场景（circumstances） 
 
-1.1 控制文件当前所有副本都已经丢失或者损坏
-1.2 当在还原一个控制文件遭到丢失或损坏的备份
-1.3 需要更改控制文件中的硬限制数据库参数
-1.4 当数据库移动到另一台服务器，并且文件位于不同的位置
+## 1.1 控制文件当前所有副本都已经丢失或者损坏 
+## 1.2 当在还原一个控制文件遭到丢失或损坏的备份 
+## 1.3 需要更改控制文件中的硬限制数据库参数 
+## 1.4 当数据库移动到另一台服务器，并且文件位于不同的位置 
 
-2、重建控制文件的一般步骤
-2.1 数据库实例在MOUNT或者OPEN阶段，生成一份控制文件的转储（一份ascii dump文件）
+# 2、重建控制文件的一般步骤 
+## 2.1 数据库实例在MOUNT或者OPEN阶段，生成一份控制文件的转储（一份ascii dump文件） 
 
 ```sql
 SQL> ALTER DATABASE BACKUP CONTROLFILE TO TRACE;
 ```
 
-2.2 定位trace文件存放路径的两种方法
+## 2.2 定位trace文件存放路径的两种方法 
 
-[1]使用user_dump_dest参数显示
+### [1]使用user_dump_dest参数显示 
 a.显示路径
 
 ```sql
@@ -49,7 +49,7 @@ b.找到trace文件
 
 
 
-[2]使用ORADEBUG命令输出生成trace文件的名称（全路径）                                             
+### [2]使用ORADEBUG命令输出生成trace文件的名称（全路径）              
 ```sql
 SQL> oradebug setmypid;         ---跟踪当前会话
 Statement processed.
@@ -58,7 +58,7 @@ SQL> oradebug tracefile_name;   ---查看trace文件名及位置
 ```
 
 
-2.3从跟踪文件里找到重建控制文件的命令，并编辑成脚本文件，方便执行（createcon.sql）
+## 2.3从跟踪文件里找到重建控制文件的命令，并编辑成脚本文件，方便执行（createcon.sql） 
 
 ```sql
 CREATE CONTROLFILE REUSE DATABASE "ZLDB4" NORESETLOGS  ARCHIVELOG
@@ -94,7 +94,7 @@ CHARACTER SET ZHS16GBK
 ;
 ```
 
-2.4关闭实例，并删除数据库控制文件，模拟控制文件缺失环境
+## 2.4关闭实例，并删除数据库控制文件，模拟控制文件缺失环境 
 
 ```sql
 SQL> shutdown immediate
@@ -107,7 +107,7 @@ Current.256.923458569.bak
 ASMCMD> rm -f *
 ```
 
-2.5在控制文件丢失的情况下，尝试打开数据库
+## 2.5在控制文件丢失的情况下，尝试打开数据库 
 
 ```sql
 SQL> SHUTDOWN IMMEDIATE
@@ -127,7 +127,7 @@ ORA-00205: error in identifying control file, check alert log for more info
 ```
 
 
-2.6重建控制文件
+## 2.6重建控制文件 
 
 ```sql
 SQL> @/home/orauser/.scrit/createcon.sql
@@ -135,7 +135,7 @@ SQL> @/home/orauser/.scrit/createcon.sql
 Control file created.
 ```
 
-2.7打开数据库
+## 2.7打开数据库 
 ```sql
 SQL> ALTER DATABASE OPEN;
 
