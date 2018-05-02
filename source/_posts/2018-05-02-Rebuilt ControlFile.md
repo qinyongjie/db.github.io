@@ -1,6 +1,6 @@
 ﻿---
 layout:     post
-title:      Rebuilt ControlFile
+title:      Rebuilt Controlfile
 date: 2018-05-02 10:00:00 +0800
 keywords:
 categories:
