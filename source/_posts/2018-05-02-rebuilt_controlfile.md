@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      重建控制文件
+title:      rebuilt controlfile
 date: 2016-11-24 23:07:00 +0800
 keywords:   jar
 categories:   
