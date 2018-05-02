@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[全哥]]></title>
-    <url>%2F2018%2F04%2F28%2F2018-04-28-hello%2F</url>
-    <content type="text"><![CDATA[全哥]]></content>
-      <tags>
-        <tag>note</tag>
-        <tag>reading</tag>
-      </tags>
-  </entry>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[Hello One]]></title>
+      <url>/2018/04/28/2018-04-28-Hello%20One/</url>
+      <content type="html"></content>
+      
+        
+        <tags>
+            
+            <tag> note </tag>
+            
+            <tag> reading </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
 </search>
